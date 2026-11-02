@@ -1,0 +1,18 @@
+mode=keyword  rules=2026-27.proto.1
+id   | invoice | exp route | exp item | exp tds | got route | got item | got tds | verdict
+C01 | Fabrication of steel racks for warehouse | AUTO_PREPARE | CONTRACT | 1600 | AUTO_PREPARE | CONTRACT | 1600 | OK
+C02 | Statutory audit fee for the year | AUTO_PREPARE | PROF | 15000 | AUTO_PREPARE | PROF | 15000 | OK
+C03 | Monthly office rent, 3rd floor premises | AUTO_PREPARE | RENT_LB | 0 | AUTO_PREPARE | RENT_LB | 0 | OK
+C04 | Monthly office rent, 3rd floor premises | AUTO_PREPARE | RENT_LB | 62000 | AUTO_PREPARE | RENT_LB | 62000 | OK
+C05 | Sales commission for Q2 orders | AUTO_PREPARE | COMMISSION | 800 | AUTO_PREPARE | COMMISSION | 800 | OK
+C06 | Consultancy fee for website redesign | AUTO_PREPARE | PROF | 12000 | AUTO_PREPARE | PROF | 12000 | OK
+C07 | Printing of annual brochures | HUMAN | - | - | HUMAN | OUT_OF_SCOPE | 0 | OK
+C08 | Call centre operations, outsourced customer supp | AUTO_PREPARE | TECH | 4000 | AUTO_PREPARE | TECH | 4000 | OK
+C09 | Annual maintenance contract including spares and | HUMAN | - | - | HUMAN | ESCALATE | 0 | OK
+C10 | Legal process outsourcing: 6 trained staff suppl | HUMAN | - | - | HUMAN | ESCALATE | 0 | OK
+C11 | Cab rental services for staff commute | AUTO_PREPARE | CONTRACT | 2400 | HUMAN | ESCALATE | 0 | MISS
+C12 | Advertising campaign creative and media placemen | HUMAN | - | - | HUMAN | ESCALATE | 0 | OK
+C13 | Plumbing and electrical contract work at site | AUTO_PREPARE | CONTRACT | 4500 | AUTO_PREPARE | CONTRACT | 4500 | OK
+C14 | Quarterly retainer as per discussion | HUMAN | - | - | HUMAN | ESCALATE | 0 | OK
+
+routed correctly: 13/14   fully correct: 13/14   UNSAFE auto-prepared errors: 0
