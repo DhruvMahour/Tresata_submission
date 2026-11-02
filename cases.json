@@ -1,0 +1,202 @@
+[
+ {
+  "id": "C01",
+  "invoice_text": "Fabrication of steel racks for warehouse",
+  "amount": 80000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "CONTRACT",
+   "tds": 1600
+  }
+ },
+ {
+  "id": "C02",
+  "invoice_text": "Statutory audit fee for the year",
+  "amount": 150000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "PROF",
+   "tds": 15000
+  }
+ },
+ {
+  "id": "C03",
+  "invoice_text": "Monthly office rent, 3rd floor premises",
+  "amount": 70000,
+  "ytd_paid": 500000,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "RENT_LB",
+   "tds": 0
+  }
+ },
+ {
+  "id": "C04",
+  "invoice_text": "Monthly office rent, 3rd floor premises",
+  "amount": 70000,
+  "ytd_paid": 550000,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "RENT_LB",
+   "tds": 62000
+  }
+ },
+ {
+  "id": "C05",
+  "invoice_text": "Sales commission for Q2 orders",
+  "amount": 40000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "COMMISSION",
+   "tds": 800
+  }
+ },
+ {
+  "id": "C06",
+  "invoice_text": "Consultancy fee for website redesign",
+  "amount": 60000,
+  "ytd_paid": 0,
+  "payee": "individual",
+  "has_pan": false,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "PROF",
+   "tds": 12000
+  }
+ },
+ {
+  "id": "C07",
+  "invoice_text": "Printing of annual brochures",
+  "amount": 90000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-03-10",
+  "payment_date": "2026-03-12",
+  "expected": {
+   "route": "HUMAN"
+  }
+ },
+ {
+  "id": "C08",
+  "invoice_text": "Call centre operations, outsourced customer support",
+  "amount": 200000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "TECH",
+   "tds": 4000
+  }
+ },
+ {
+  "id": "C09",
+  "invoice_text": "Annual maintenance contract including spares and software licence renewal",
+  "amount": 250000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "HUMAN"
+  }
+ },
+ {
+  "id": "C10",
+  "invoice_text": "Legal process outsourcing: 6 trained staff supplied",
+  "amount": 300000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "HUMAN"
+  }
+ },
+ {
+  "id": "C11",
+  "invoice_text": "Cab rental services for staff commute",
+  "amount": 120000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "CONTRACT",
+   "tds": 2400
+  }
+ },
+ {
+  "id": "C12",
+  "invoice_text": "Advertising campaign creative and media placement via agency",
+  "amount": 500000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "HUMAN"
+  }
+ },
+ {
+  "id": "C13",
+  "invoice_text": "Plumbing and electrical contract work at site",
+  "amount": 450000,
+  "ytd_paid": 0,
+  "payee": "individual",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "AUTO_PREPARE",
+   "item": "CONTRACT",
+   "tds": 4500
+  }
+ },
+ {
+  "id": "C14",
+  "invoice_text": "Quarterly retainer as per discussion",
+  "amount": 100000,
+  "ytd_paid": 0,
+  "payee": "company",
+  "has_pan": true,
+  "credit_date": "2026-07-10",
+  "payment_date": "2026-07-15",
+  "expected": {
+   "route": "HUMAN"
+  }
+ }
+]
